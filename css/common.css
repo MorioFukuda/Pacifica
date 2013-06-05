@@ -1,0 +1,67 @@
+body{
+	background: url(../images/common/background.png) top left no-repeat;
+}
+
+/*
+* header
+*/
+header {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	font-size: 13px;
+	padding: 2px 0;
+}
+
+header a:link    { color: #ffffff }
+header a:visited { color: #ffffff }
+header a:hover   { color: #4567a1 }
+header a:active  { color: #ffffff }
+
+header ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+header ul li {
+	float: left;
+	padding-left: 9px;
+	margin-right: 10px;
+	list-style-type: none;
+	background: url(../images/common/mark.gif) left no-repeat; 
+}
+
+header ul.shop_list {
+	margin: 0 20px;
+}
+
+/*
+* main container
+*/
+div#main_container {
+	width: 900px;
+	margin: 15px auto;
+	padding: 0;
+}
+
+/*
+* global menu
+*/
+div#global_menu ul{
+	display: inline-block;
+	margin: 10px 0 0 25px;
+	padding: 0;
+}
+
+div#global_menu ul li{
+	float: left;
+	list-style-type: none;
+}
+
+/*
+* main contents
+*/
+div#main_contents{
+	margin-top: 13px;	
+}
