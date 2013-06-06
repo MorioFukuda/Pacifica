@@ -1,0 +1,45 @@
+/*
+* トップページ
+*/
+
+#main_contents ul#topic {
+	margin: 10px 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#main_contents ul#topic li {
+	float: left;
+	margin-right: 13px;
+	list-style-type: none;
+}
+
+#main_contents ul#topic li.last {
+	margin-right: 0;
+}
+
+h2.top {
+	clear: both;
+	margin-top: 10px;
+	padding: 5px 0;
+	background-color: #4567a1;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+table#whats_new {
+	color: #ffffff;
+	font-size: 13px;
+}
+
+table#whats_new a:link    { color: #ffffff }
+table#whats_new a:visited { color: #ffffff }
+table#whats_new a:hover   { color: #4567a1 }
+table#whats_new a:active  { color: #ffffff }
+
+table#whats_new td{
+	background-color: #89b6d6;
+	margin: 100px;
+}
