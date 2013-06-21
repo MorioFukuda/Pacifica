@@ -2,6 +2,11 @@ body{
 	background: url(../images/common/background.png) top left no-repeat;
 }
 
+a:link    { color: #ffffff }
+a:visited { color: #ffffff }
+a:hover   { color: #4567a1 }
+a:active  { color: #ffffff }
+
 /*
 * header
 */
@@ -12,11 +17,6 @@ header {
 	font-size: 13px;
 	padding: 2px 0;
 }
-
-header a:link    { color: #ffffff }
-header a:visited { color: #ffffff }
-header a:hover   { color: #4567a1 }
-header a:active  { color: #ffffff }
 
 header ul {
 	display: inline-block;

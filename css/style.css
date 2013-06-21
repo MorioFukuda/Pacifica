@@ -20,7 +20,7 @@
 
 h2.top {
 	clear: both;
-	margin-top: 10px;
+	margin: 5px 0;
 	padding: 5px 0;
 	background-color: #4567a1;
 	text-align: center;
@@ -29,17 +29,51 @@ h2.top {
 	font-weight: bold;
 }
 
-table#whats_new {
+table#whats_new, table#shop_list {
 	color: #ffffff;
 	font-size: 13px;
+	border-collapse: separate;
+	border-spacing: 5px;
+	margin: 0 -5px;
 }
 
-table#whats_new a:link    { color: #ffffff }
-table#whats_new a:visited { color: #ffffff }
-table#whats_new a:hover   { color: #4567a1 }
-table#whats_new a:active  { color: #ffffff }
+table#whats_new {
+	width: 560px;
+	float: left;
+}
 
-table#whats_new td{
+table#shop_list {
+	width: 910px;
+}
+
+table#whats_new th {
 	background-color: #89b6d6;
-	margin: 100px;
+	text-align: center;
+}
+
+table#whats_new td {
+	background-color: #89b6d6;
+	padding: 5px 3px;
+}
+
+table#shop_list td {
+	background-color: #df8d9c;
+	padding: 5px 3px;
+}
+
+div#side_banner {
+	margin: 0;
+	padding: 5px 0 5px 10px;
+	width: 400px;
+}
+
+ul#side_banner{
+	margin: 5px 0 0 10px;
+	padding: 0;
+	width: 340px;
+	float: right;
+}
+
+ul#side_banner li{
+	list-style-type: none;
 }
